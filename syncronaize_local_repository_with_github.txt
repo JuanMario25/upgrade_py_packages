@@ -1,0 +1,19 @@
+Proces to syncronize local repository with github
+
+$ git init 	// create a local repository on the path where you are.
+		// master branch
+
+$ git add .     // add all the files avalibles in the path.
+
+$ git commit -m "first commit"
+
+$ git branch -M main	// change from master branch to main branch. 
+			// the main branch is created into the local repository when you use for firts time the command.
+			// note: the main branch already exist into the github repository.
+
+$ git remote add origin <url of the repository in github>	// connect the local repository with the github reposytory.
+								// note: do not use this symbols <> to enter the url of the repository.
+								// incorrect: $ git remote add origin <https://github.com/JuanMario25/upgrade_py_packages.git>.
+								// correct: $ git remote add origin https://github.com/JuanMario25/upgrade_py_packages.git.
+
+$ git push -u origin main	// push the files taken of the local repository and  add into main branch of the git hub reposytory .
