@@ -1,0 +1,2 @@
+- Python script made with the goal of upgrade the packages from python which are outdated
+- This project run subproces using python that are avalible for windows 
